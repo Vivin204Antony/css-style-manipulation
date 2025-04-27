@@ -4,5 +4,6 @@ var color = document.getElementById("css");
 
 function change()
 {
-    color.style.backgroundColor = "red";
+    color.setAttribute("class","widthmax");
+    color.style.backgroundColor = "yellow";
 }
